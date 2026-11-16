@@ -90,7 +90,6 @@ def _split_pipes(raw: str) -> list[str]:
     return parts
 
 
-
 def _to_float(text: str) -> float | None:
     text = text.strip()
     if not text:
